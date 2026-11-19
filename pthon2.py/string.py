@@ -1,0 +1,10 @@
+text="Hello Python World"
+print("original string:",text)
+print("Upper:",text.upper())
+print("Lower:",text.lower())
+print("Strip:",text.strip())
+words=text.strip().split()
+print("Split:",words)
+print("Join:","-".join(words))
+print("Replace:",text.replace("Python","Prgramming"))
+print("Find:",text.find("Python"))
